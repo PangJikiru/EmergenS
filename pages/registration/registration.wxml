@@ -1,0 +1,16 @@
+<!--pages/registration/registration.wxml-->
+<view class="container">
+    <text class="title">Registration</text>
+    <view class="input-container">
+        <view class="input-item">
+            <text class="input-label">Account number:</text>
+            <input class="input-box" placeholder="Enter account number" />
+        </view>
+        <view class="input-item">
+            <text class="input-label">Password:</text>
+            <input class="input-box" type="password" placeholder="Enter password" />
+        </view>
+    </view>
+    <button class="button register-button">Register</button>
+    <button class="back-button">Back</button>
+</view>

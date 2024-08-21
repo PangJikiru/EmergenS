@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/registration/registration",
+    "pages/final/final",
+    "custom-tab-barf/custom-tab-bar"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarBackgroundColor": "#f0ffff"
+  },
+  "tabBar": {
+    "backgroundColor": "BB44DD",
+    "borderStyle": "white",
+    "selectedColor": "FFFF88",
+    "color": "FFEEFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "log in",
+        "iconPath": "pages/image/book.png",
+        "selectedIconPath": "pages/image/book_selected.png"
+      },
+      {
+        "pagePath": "pages/registration/registration",
+        "text": "registration",
+        "iconPath": "pages/image/tag.png",
+        "selectedIconPath": "pages/image/tag_selected.png"
+      },
+      {
+        "pagePath": "pages/final/final",
+        "text": "final",
+        "iconPath": "pages/image/user.png",
+        "selectedIconPath": "pages/image/user_selected.png"
+      }
+    ]
+  }
+}

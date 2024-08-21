@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view class="container">
+    <text class="title">Welcome to log in!</text>
+    <view class="input-container">
+        <view class="input-item">
+            <text class="input-label">Account number:</text>
+            <input class="input-box" placeholder="Enter account number" />
+        </view>
+        <view class="input-item">
+            <text class="input-label">Password:</text>
+            <input class="input-box" type="password" placeholder="Enter password" />
+        </view>
+    </view>
+    <view class="button-container">
+      <button bindtap="login" class="action">登录</button>
+	    <button bindtap="toRegister" class="register">注册</button>
+
+    </view>
+    
+</view>
+<view>
+  <!-- Page content goes here -->
+</view>
+<custom-tab-bar />
+
+

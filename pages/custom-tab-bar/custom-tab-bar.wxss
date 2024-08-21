@@ -1,0 +1,40 @@
+/* custom-tab-barf/custom-tab-bar.wxss */
+.custom-tab-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60rpx;
+  display: flex;
+  background-color: #ffffff;
+  box-shadow: 0 -5rpx 10rpx rgba(0, 0, 0, 0.1);
+}
+
+.tab-item {
+  flex: 1;
+  text-align: center;
+  padding: 10rpx 0;
+}
+
+.highlight-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 100%;
+  background-color: #f0f8ff;
+  border-radius: 30rpx;
+  z-index: -1;
+  transition: transform 0.3s ease-in-out;
+}
+
+.tab-text {
+  color: #707070;
+  font-size: 24rpx;
+  margin-top: 5rpx;
+}
+
+image {
+  width: 48rpx;
+  height: 48rpx;
+}

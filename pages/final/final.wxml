@@ -1,0 +1,5 @@
+<!--pages/final/final.wxml-->
+<view class="container">
+    <text class="title">Welcome to timi!</text>
+    <text class="success-message">You have registered successfully!</text>
+</view>
