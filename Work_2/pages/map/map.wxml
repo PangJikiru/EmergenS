@@ -1,0 +1,4 @@
+<!-- pages/map/map.wxml -->
+<view class="container">
+  <text class="title">AED地图</text>
+</view>

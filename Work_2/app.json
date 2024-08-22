@@ -1,0 +1,47 @@
+
+{
+  "pages": [
+    "pages/index/index",
+    "pages/map/map",
+    "pages/training/training",
+    "pages/profile/profile"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "EmergenSafe",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#1C1C1C",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/Home.png",
+        "selectedIconPath": "images/home_selected.png"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "text": "AED地图",
+        "iconPath": "images/map.png",
+        "selectedIconPath": "images/map_selected.png"
+      },
+      {
+        "pagePath": "pages/training/training",
+        "text": "急救技能训练",
+        "iconPath": "images/training.png",
+        "selectedIconPath": "images/training_selected.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "我的",
+        "iconPath": "images/profile.png",
+        "selectedIconPath": "images/profile_selected.png"
+      }
+    ]
+  }
+}

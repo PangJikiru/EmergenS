@@ -1,0 +1,4 @@
+<!-- pages/training/training.wxml -->
+<view class="container">
+  <text class="title">急救技能训练</text>
+</view>
